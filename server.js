@@ -37,10 +37,10 @@ const server = http.createServer((req, res) => {
       contentType = 'image/jpg';
       break;
     case '.yaml':
-      contentType = 'application/x-yaml';
+      contentType = 'text/yaml';
       break;
     case '.yml':
-      contentType = 'application/x-yaml';
+      contentType = 'text/yaml';
       break;
   }
 
